@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.yan.Linearlayout.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="42pt"
+                android:layout_height="match_parent"
+                android:text="One,One"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:layout_width="50pt"
+                android:layout_height="wrap_content"
+                android:text="One,Two"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="45pt"
+                android:layout_height="wrap_content"
+                android:text="One,Three"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="42pt"
+                android:layout_height="wrap_content"
+                android:text="One,Four"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="42pt"
+                android:layout_height="match_parent"
+                android:text="Two,One"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:layout_width="50pt"
+                android:layout_height="wrap_content"
+                android:text="Two,Two"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="46pt"
+                android:layout_height="wrap_content"
+                android:text="Two,Three"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="42pt"
+                android:layout_height="wrap_content"
+                android:text="Two,Four"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="45pt"
+                android:layout_height="match_parent"
+                android:text="Three,One"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:layout_width="46pt"
+                android:layout_height="match_parent"
+                android:text="Three,Two"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="40pt"
+                android:layout_height="wrap_content"
+                android:text="Three,Three"
+                android:padding="0pt"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="50pt"
+                android:layout_height="wrap_content"
+                android:text="Three,Four"
+                android:padding="0pt"
+                android:textAllCaps="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="42pt"
+                android:layout_height="match_parent"
+                android:text="Four,One"
+                android:textAllCaps="false" />
+
+
+            <Button
+                android:layout_width="52pt"
+                android:layout_height="match_parent"
+                android:text="Four,Two"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="40pt"
+                android:layout_height="wrap_content"
+                android:text="Four,Three"
+                android:padding="0pt"
+                android:textAllCaps="false" />
+
+            <Button
+                android:layout_width="50pt"
+                android:layout_height="wrap_content"
+                android:text="Four,Four"
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
