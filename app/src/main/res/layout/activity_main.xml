@@ -6,10 +6,16 @@
     android:layout_height="match_parent"
 
     tools:context="com.example.yan.Linearlayout.MainActivity">
+
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,6 +48,7 @@
                 android:textAllCaps="false" />
 
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -94,15 +101,15 @@
             <Button
                 android:layout_width="40pt"
                 android:layout_height="wrap_content"
-                android:text="Three,Three"
                 android:padding="0pt"
+                android:text="Three,Three"
                 android:textAllCaps="false" />
 
             <Button
                 android:layout_width="50pt"
                 android:layout_height="wrap_content"
-                android:text="Three,Four"
                 android:padding="0pt"
+                android:text="Three,Four"
                 android:textAllCaps="false" />
         </LinearLayout>
 
@@ -127,8 +134,8 @@
             <Button
                 android:layout_width="40pt"
                 android:layout_height="wrap_content"
-                android:text="Four,Three"
                 android:padding="0pt"
+                android:text="Four,Three"
                 android:textAllCaps="false" />
 
             <Button
